@@ -1,5 +1,49 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-cockroachdb-datadriven (1.0.2-6) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
+  * Add uscan watch file
+  * Drop useless cockroachdb-datadriven package (Closes: #1023323)
+  * Enable tests
+  * Add Rules-Requires-Root, Testsuite, XS-Go-Import-Path
+  * Update Standards-Version to 4.6.2 (no changes)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 31 Dec 2022 18:54:03 +0800
+
+golang-github-cockroachdb-datadriven (1.0.2-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-cockroachdb-datadriven-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 27 Nov 2022 04:17:51 +0000
+
+golang-github-cockroachdb-datadriven (1.0.2-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+  * Add missing ${misc:Built-Using} to Built-Using on cockroachdb-datadriven.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 00:25:02 +0000
+
+golang-github-cockroachdb-datadriven (1.0.2-3) unstable; urgency=medium
+
+  * Re-upload source-only.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 02 Nov 2022 08:41:01 +0100
+
+golang-github-cockroachdb-datadriven (1.0.2-2) unstable; urgency=medium
+
+  * Set golang team as maintainer, me as uploader.
+  * Set the -dev package as arch: all.
+  * Added licensing for debian folder.
+  * Added a cockroachdb-datadriven package containing the binary.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 01 Nov 2022 13:56:47 +0100
+
+golang-github-cockroachdb-datadriven (1.0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1022805)
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 29 Sep 2022 13:19:14 +0200
